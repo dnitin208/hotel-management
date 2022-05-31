@@ -1,0 +1,33 @@
+.Form-add{
+    font-weight: bold;
+    padding-left:37%;
+}
+
+.heading{
+    font-weight: 1000;
+    padding-left: 38%;
+}
+input {
+    color: green;
+    opacity: 1;
+  }
+
+.btn1{
+margin-left: 18%;
+}
+
+.Divv{
+    background-color: #d1d1d1;
+    height: 500px;
+}
+#inputEmail3{
+    background-color: #d1d1d1;
+}
+
+.search-area{
+    margin-right: 7%;
+}
+
+/* body{
+    text-align: center;
+} */

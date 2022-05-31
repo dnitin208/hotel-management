@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add_styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>ADD</title>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" style="padding-right: 5em;">E-Hotel</a>
+       
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <div class="input-group search-area">
+            <input type="search" class="form-control rounded" placeholder="Search Customer" aria-label="Search" aria-describedby="search-addon" />
+            <button type="button" class="btn btn-dark">Search</button>
+          </div>
+
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item active">
+              
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="add.html">Add</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Update</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="delete.html">Delete</a>
+            </li>
+          </ul>
+
+          
+        </div>
+    </nav>
+
+
+    <div class="Divv">
+
+    <!-- <br> -->
+    <br>
+    <br>
+    <h1 class="heading">
+        Allotment of Room
+    </h1>
+    <br>
+    <br>
+
+    <!-- ................. -->
+
+    
+    <form class="Form-add" method="post" action="/add">
+        <div class="form-group row">
+          <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+          <div class="col-sm-4">
+            <input type="text" class="form-control" id="inputEmail3" placeholder="Name" name="nam">
+          </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-4">
+              <input type="email" class="form-control" id="inputEmail3" placeholder="abc@example.com" name="emai">
+
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Contact</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="Mobile Number" name="contac">
+            </div>
+          </div>
+          
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Aadhar No.</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="Aadhar Number" name="aadha">
+            </div>
+          </div>
+
+          <!-- <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Count</label>
+            <div class="col-sm-4">
+              <input type="number" class="form-control" id="inputEmail3" placeholder="Select ">
+            </div>
+          </div> -->
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Count</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="1/2/3/4" name="coun">
+            </div>
+          </div>
+
+        
+        <!-- <div class="form-group row">
+          <div class="col-sm-2">Accomodation</div>
+          <div class="col-sm-4">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                AC
+              </label>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Accomodation</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="AC/NAC" name="accomodatio">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Date</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="mm-dd-yyyy" name="dat">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">No. of days</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="1/2/3/4...." name="day">
+            </div>
+          </div>
+
+        <!-- <br> -->
+        <div class="form-group row">
+          <div class="col-sm-10 btn1">
+            <button type="submit" class="btn btn-primary">ALLOT</button>
+          </div>
+        </div>
+
+
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Room No.</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" placeholder="<%=room_no%>" value="<%=room_no%>" id="inputEmail3" name="roo">
+            </div>
+          </div>
+      
+          <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Amount</label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" id="inputEmail3" placeholder="<%=amount%>">
+            </div>
+          </div>
+
+
+          <!-- <div class="form-group row">
+            <div class="col-sm-10 btn1">
+              <button type="submit" class="btn btn-primary">PAY</button>
+            </div>
+          </div> -->
+
+      </form>
+
+
+      <script src="add.js"></script>
+
+    </div>
+
+</body>
+</html>
